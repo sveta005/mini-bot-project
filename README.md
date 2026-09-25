@@ -1,6 +1,6 @@
 # Personal Music Server
 
-A lightweight music server built for Fedora Linux that supports searching, automatic metadata tagging (iTunes ID3 tags and cover art), and streaming tracks via a mobile-friendly web interface.
+A lightweight music server that supports searching, automatic metadata tagging (iTunes ID3 tags and cover art), and streaming tracks via a mobile-friendly web interface.
 
 ---
 
