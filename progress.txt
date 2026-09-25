@@ -1,0 +1,4 @@
+Problem: Zelim da prekinem sve preplates sto se ticu strimovanja muzike, zato cu sebi napraviti striming server...
+
+Prvo cu istraziti kako sve ovo funkcionise u pajtonu
+Sada kada sam napravio klasicnog pajton bota hocu da napravim aplikaciju/web na kojoj cu imati privatni spotifaj otp
