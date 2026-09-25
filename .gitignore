@@ -1,0 +1,4 @@
+music/*.mp3
+__pycache__/
+*.tgz
+.env
