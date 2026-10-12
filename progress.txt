@@ -1,4 +1,31 @@
-Problem: Zelim da prekinem sve preplates sto se ticu strimovanja muzike, zato cu sebi napraviti striming server...
+====================================================================
+               PROJECT PROGRESS & DEVELOPMENT LOG
+====================================================================
 
-Prvo cu istraziti kako sve ovo funkcionise u pajtonu
-Sada kada sam napravio klasicnog pajton bota hocu da napravim aplikaciju/web na kojoj cu imati privatni spotifaj otp
+Project Name: Personal Music Server & Telegram Bot Interface
+Environment: Linux (Fedora) / Python 3
+Core Libraries: Flask, yt-dlp, mutagen, python-telegram-bot
+
+1. CORE ARCHITECTURE & SETUP
+[x] Environment Configuration:
+    - Set up a Linux-based development environment on Fedora.
+    - Configured virtual environments and dependency management for Python.
+
+[x] Backend Server (Flask):
+    - Implemented a lightweight web-based frontend and REST endpoints.
+    - Created media directory management to store, catalog, and serve downloaded audio files.
+
+2. AUDIO EXTRACTION & METADATA PROCESSING
+[x] Media Downloading (yt-dlp):
+    - Integrated `yt-dlp` backend service for automatic audio extraction from URLs.
+    - Configured post-processing rules to convert incoming audio to standardized formats (MP3/FLAC).
+
+[x] Tagging & ID3 Metadata Management (Mutagen):
+    - Integrated `mutagen` to edit ID3 metadata dynamically.
+    - Automated title, artist, album, and embedded album art tagging post-download.
+
+3. TELEGRAM BOT INTERACTION
+[x] Bot Integration:
+    - Developed an asynchronous Telegram Bot using `python-telegram-bot`.
+    - Added user commands for triggering track downloads directly from chat links.
+    - Connected the bot to the local web server to streamline media playback and remote accessibility.
